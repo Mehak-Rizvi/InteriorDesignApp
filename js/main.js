@@ -1,7 +1,7 @@
 function loadData(){
     var request = new XMLHttpRequest();
 
-    request.open('GET', 'http://restcountries.eu/rest/v2/all', true);
+    request.open('GET','http://restcountries.eu/rest/v2/all', true);
 
     request.onload = function(){
         var list= "";
@@ -64,5 +64,4 @@ function loadData(){
 //Called the function to load the data initially
 loadData();
 
-    }
-}
+    

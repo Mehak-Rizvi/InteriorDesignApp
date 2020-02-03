@@ -1,0 +1,34 @@
+span ,legend {
+	font-weight: bold;
+}
+/* middle section of the page*/
+.section {
+	padding: 14px;
+}
+/* list of countries container styling*/
+#countries-container {
+	width: 25%;
+	float: left;
+	display: block;	
+	background-color:#90ee90;
+}
+/* individual country element in the list styling*/
+.countries {
+	font-family: Optima, sans-serif;
+	padding-bottom: 7px;
+}
+
+a {
+	text-decoration: none;
+}
+ 
+/* container for country details*/
+#content-container {
+	width: 75%;
+	float: right;
+	display: block;
+	font-family: Optima, sans-serif;
+	font-size: 20px;
+	display: none;
+
+}
