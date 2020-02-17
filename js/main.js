@@ -1,7 +1,7 @@
 function loadData(){
     var request = new XMLHttpRequest();
 
-    request.open('GET','http://restcountries.eu/rest/v2/all', true);
+    request.open('GET','https://restcountries.eu/rest/v2/all', true);
 
     request.onload = function(){
 		var data = JSON.parse(this.response);
